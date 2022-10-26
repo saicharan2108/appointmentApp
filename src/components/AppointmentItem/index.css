@@ -1,0 +1,78 @@
+/* Write your CSS here */
+@media screen and (min-width: 767px) {
+  .listContainer {
+    min-height: 65px;
+    width: 220px;
+    border-color: #b5b7c4;
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .program {
+    color: #171f46;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 1px;
+  }
+  .programTime {
+    color: #b5b7c4;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 1px;
+  }
+  .starImage {
+    height: 20px;
+    width: 20px;
+    align-self: flex-start;
+    margin-top: 5px;
+  }
+  .applyBtn {
+    background-color: transparent;
+    border-width: 0px;
+  }
+}
+/* Write your CSS here */
+@media screen and (max-width: 767px) {
+  .listContainer {
+    min-height: 100px;
+    width: 90%;
+    border-color: #b5b7c4;
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .program {
+    color: #171f46;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 1px;
+  }
+  .programTime {
+    color: #b5b7c4;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 1px;
+  }
+  .starImage {
+    height: 20px;
+    width: 20px;
+    align-self: flex-start;
+    margin-top: 5px;
+  }
+  .applyBtn {
+    background-color: transparent;
+    border-width: 0px;
+  }
+}
